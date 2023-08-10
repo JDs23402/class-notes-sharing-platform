@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".branch">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Branch"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="50sp"
+        android:background="@drawable/linear_back"
+        android:id="@+id/branch"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/branch"
+        android:textSize="20sp"
+        android:text="Computer Science Engineering"
+        android:layout_marginTop="130dp"
+        android:id="@+id/cse"
+        />
+   <Button
+    android:layout_width="wrap_content"
+       android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/cse"
+       android:textSize="20sp"
+    android:text="Electronics Communication Engineering"
+    android:layout_marginTop="120dp"
+    android:id="@+id/ece"
+    />
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="40dp"
+        android:text="Logout" />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="40dp"
+        android:text="Back" />
+</RelativeLayout>
